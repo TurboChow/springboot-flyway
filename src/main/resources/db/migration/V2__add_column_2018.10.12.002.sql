@@ -1,0 +1,1 @@
+alter table user add age int(3) default '0';
