@@ -17,3 +17,5 @@ flyway:
   out-of-order: false
   #当初始化好连接时要执行的SQL
   #init-sqls:
+  #使用的元数据表名-->版本记录
+  table: schema_version
