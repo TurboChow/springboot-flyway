@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: @project.artifactId@
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/flyway_test?useUnicode=true&characterEncoding=utf8&useSSL=false&verifyServerCertificate=false&allowPublicKeyRetrieval=true
+    username: bigdata
+    password: bigdata
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+flyway:
+  #是否开启
+  enabled: true
+  #迁移脚本的位置，默认db/migration
+  #locations: classpath:/db/migration
+  #是否允许无序的迁移
+  out-of-order: false
+  #当初始化好连接时要执行的SQL
+  #init-sqls:
