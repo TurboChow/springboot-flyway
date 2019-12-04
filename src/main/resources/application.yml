@@ -2,9 +2,9 @@ spring:
   application:
     name: @project.artifactId@
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/flyway_test1?useUnicode=true&characterEncoding=utf8&useSSL=false&verifyServerCertificate=false&allowPublicKeyRetrieval=true
-    username: bigdata
-    password: bigdata
+    url: jdbc:mysql://10.20.4.51:3306/flyway_test1?useUnicode=true&characterEncoding=utf8&useSSL=false&verifyServerCertificate=false&allowPublicKeyRetrieval=true
+    username: root
+    password: YY5VV5
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 
