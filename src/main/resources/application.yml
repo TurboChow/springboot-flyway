@@ -19,3 +19,9 @@ flyway:
   #init-sqls:
   #使用的元数据表名-->版本记录
   table: schema_version
+
+  #对于已经存在的项目，数据库中存在数据，这个时候我们需要通过设置baseline告诉flyway，这个baseline及之前的sql脚本都不要执行了（否则会报重复的错误）；
+  #baseline-on-migrate: false
+
+  #配合上一条配置，告诉系统具体baseline版本号，包括这条版本号在内的之前所有sql脚本，都不会在迁移时执行
+  #baseline-version: 4

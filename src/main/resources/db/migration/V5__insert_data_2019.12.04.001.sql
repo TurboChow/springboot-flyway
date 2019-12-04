@@ -1,1 +1,1 @@
-insert into user (name, age) VALUES ('lisi','18');
+insert into user (name) VALUES ('lisi');
